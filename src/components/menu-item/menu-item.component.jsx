@@ -11,10 +11,10 @@ const MenuItem = ({title, imageUrl, size}) => (
         backgroundRepeat: "no-repeat"}
         
     } 
-    className={`${size} menu-item`}>
+    className={`${size} menu-item grow`}>
         <div className="content">
-            <h1 className="title">{title}</h1>
-            <h3 className="sub-title">SHOP NOW</h3>
+            <h6 className="title">{title}</h6>
+            <h5 className="sub-title">SHOP NOW</h5>
         </div>
     </div>    
 );
